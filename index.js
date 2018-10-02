@@ -1,13 +1,13 @@
 var param
-
-function takeANumber(param1,param2){
-  var a
-  a=param1.length
+var i=0
+function takeANumber(param1){
   
-  param1[a]=param2
+  i=param1.length+1
+  
+  param1[i-1]= i
    
   
-  return "Welcome, "+ param2+". You are number "+(a+1)+" in line."
+  return "Welcome,  you are number "+i+" in line."
 }
 function nowServing (param)
 {
